@@ -3,7 +3,7 @@
 #include<fstream>
 #include <iomanip>
 #include<string>
-#include "C:/abderraouf/project.C++/ProgrammingAdvaices/inputLib_h"
+#include "inputLib_h"
 using namespace std;
 
 const string fileUsers = "bankAdmin.txt";

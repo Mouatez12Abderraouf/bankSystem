@@ -1,0 +1,40 @@
+
+#ifndef inputLib_h
+
+#define inputLib_h
+
+#include<iostream>
+#include<string>
+using namespace std;
+
+
+namespace inputPrimitive
+{
+    int readNumber()
+    {
+        int number;
+        cout << "Enter the number: ";
+        cin >> number;
+        return number;
+    }
+
+    string readString()
+    {
+        string st;
+        getline(cin >> ws, st);
+        
+        return st;
+    }
+
+    char readChar()
+    {
+        char ch;
+        cout << "enter the character :\n";
+        cin >> ch;
+
+        return ch;
+    }
+}
+
+#endif
+

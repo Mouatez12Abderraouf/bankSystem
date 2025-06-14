@@ -6,9 +6,9 @@
 #include "C:/abderraouf/project.C++/ProgrammingAdvaices/inputLib_h"
 using namespace std;
 
-const string fileUsers = "C:/abderraouf/database_project7/bankAdmin.txt";
+const string fileUsers = "bankAdmin.txt";
 
-const string nameFile = "C:/abderraouf/database_project7/bankClient.txt";
+const string nameFile = "bankClient.txt";
 
 enum opTransaction 
 {Deposit = 1, Withdraw = 2, TotalBalances = 3, MainMenu = 4};
